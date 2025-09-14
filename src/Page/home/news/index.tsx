@@ -25,6 +25,7 @@ function News() {
 
     return (
         <>
+
             <Box
                 component="h1"
                 sx={{
@@ -57,7 +58,7 @@ function News() {
                 ))}
             </Box>
 
- <Box sx={{ width: "800px", margin: "auto", mt: 4 }}>
+ <Box sx={{ width: "800px", margin: "auto", my: 4 }}>
       <ImageSlider images={images} />
     </Box>
 

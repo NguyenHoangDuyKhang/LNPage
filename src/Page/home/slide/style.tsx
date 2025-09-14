@@ -4,7 +4,7 @@ const styles = {
   container: {
     margin: "10px auto",
     maxWidth: 500,
-    paddingBottom: 100,
+    paddingBottom: 10,
     width: "100%",
   } as React.CSSProperties,
   cardContainer: {
@@ -14,7 +14,7 @@ const styles = {
     alignItems: "center",
     position: "relative",
     paddingTop: 20,
-    marginBottom: 40,
+    marginBottom: 0,
   } as React.CSSProperties,
   splash: {
     position: "absolute",

@@ -1,35 +1,27 @@
-import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { useState } from 'react'
 import './App.css'
 import { Box } from "@mui/material";
-
+import AppRoutes from './routers';
 
 import Nav from './component/Nav';
-import Home from './Page/home';
-import About from './Page/about';
+// import Home from './Page/home';
+// import About from './Page/about';
 
 
-import NotFound from './Page/404';
+// import NotFound from './Page/404';
 function App() {
 
   return (
     <>
-      <Router>
-        <Box>
-          <Nav />
-        </Box>
+   
+      <Box>
+        <Nav />
+        <AppRoutes/>
 
-          <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+      </Box>
 
-         <Route path="*" element={<NotFound />} />
-      </Routes>
-        
 
-        <Box> Footer compoennt</Box>
-
-      </Router>
+      <Box> Footer compoennt</Box>
 
     </>
   )
