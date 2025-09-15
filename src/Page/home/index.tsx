@@ -3,6 +3,12 @@ import Slide from "./slide";
 import News from "./news";
 import CTA from "./CTA";
 import FeatureHighlights from "./FeatureHighlights";
+import Introduce from "./Introduce";
+import Features from "./Features";
+
+import FigmaFile from "./FigmaFile";
+import Advertisement from "./Advertisement";
+import Templates from "./BoxTemplates";
 function Home() {
     return (
         <>
@@ -12,11 +18,19 @@ function Home() {
                     <News />
                     <CTA />
                     <FeatureHighlights />
+                    <Introduce/>
+                    <Features/>
                 </Box>
 
                 <Box sx={{ width: "40%" }}>
                     <Slide />
                 </Box>
+            </Box>
+
+            <Box>
+                <FigmaFile/>
+                <Advertisement/>
+                <Templates/>
             </Box>
 
 
