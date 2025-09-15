@@ -7,6 +7,10 @@ function Slide() {
     ["https://i.pinimg.com/736x/9d/0a/55/9d0a5507ad08f434dfef3ca077f8d8a2.jpg", 260, 290],
     ["https://i.pinimg.com/1200x/f4/7d/37/f47d374643b0281089b96c3b075beecc.jpg", 290, 320],
     ["https://i.pinimg.com/736x/ae/94/97/ae94977fe94c32d093f156476a9890c1.jpg", 320, 350],
+    ["https://i.pinimg.com/1200x/18/59/b9/1859b90826919f2362b9fd6f415441cb.jpg", 350, 380],
+    ["https://i.pinimg.com/1200x/56/c1/9a/56c19ae23cb3473e5f5b515d965c18ef.jpg", 410, 440],
+    ["https://i.pinimg.com/1200x/da/7c/3e/da7c3e946cfb1c1636092f42d63d8f5e.jpg", 440, 470],
+
   ]
 
   return (

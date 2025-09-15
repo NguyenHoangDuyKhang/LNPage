@@ -4,24 +4,19 @@ import { Box } from "@mui/material";
 import AppRoutes from './routers';
 
 import Nav from './component/Nav';
-// import Home from './Page/home';
-// import About from './Page/about';
-
-
-// import NotFound from './Page/404';
+import Footer from './component/Footer';
 function App() {
 
   return (
     <>
-   
+
       <Box>
         <Nav />
-        <AppRoutes/>
-
+        <AppRoutes />
+        <Footer />
       </Box>
 
 
-      <Box> Footer compoennt</Box>
 
     </>
   )
